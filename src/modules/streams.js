@@ -10,6 +10,7 @@ export const createUploadStream = (key) => {
       .upload({
         Bucket: bucket,
         Key: key,
+        ACL: "public-read",
         Body: pass,
       })
       .promise(),

@@ -11,9 +11,7 @@ export const resolvers = {
   Mutation: {
     fileUpload: async (parent, { file }) => {
       const { filename, createReadStream } = await file;
-
       const stream = createReadStream();
-
       let result;
 
       try {

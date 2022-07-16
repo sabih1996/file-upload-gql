@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "@urql/exchange-multipart-fetch": "^0.1.14",

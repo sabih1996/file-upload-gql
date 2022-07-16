@@ -16,6 +16,7 @@ export function App() {
   const { data, error } = result;
 
   const onDrop = useCallback(async (files) => {
+    console.log(files)
     const file = files[0];
     await uploadFile({ file });
   }, []);
