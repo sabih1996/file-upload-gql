@@ -1,2 +1,2 @@
-# file-upload-gql
+# file upload GraphQL
 Frontend and Backend File Upload 🗃
